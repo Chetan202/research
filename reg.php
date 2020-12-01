@@ -40,12 +40,12 @@ if ($conn) {
     <!-- <h2>If you want us to notify you for future programs,then please register</h2> -->
     <nav class="navbar">
         <ul class="navbar_menu">
-            <li class="logo"><a href="http://localhost:8080/nasa-web/home.html"><img src="images/logo1.png"></a></li>
-            <li><a href="http://localhost:8080/nasa-web/home.html">Home</a></li>
-            <li><a href="http://localhost:8080/nasa-web/ak.php">Akshat Mohite</a></li>
-            <li><a href="http://localhost:8080/nasa-web/enroll.php">Enroll</a></li>
-            <li><a href="http://localhost:8080/nasa-web/cont.html">Contact</a></li>
-            <li><a href="http://localhost:8080/nasa-web/reg.php">Register</a> </li>
+            <li class="logo"><a href="/home.html"><img src="images/logo1.png"></a></li>
+            <li><a href="/home.html">Home</a></li>
+            <li><a href="/ak.php">Akshat Mohite</a></li>
+            <li><a href="/enroll.php">Enroll</a></li>
+            <li><a href="/cont.html">Contact</a></li>
+            <li><a href="/reg.php">Register</a> </li>
         </ul>
     </nav>
 
@@ -133,7 +133,7 @@ if (isset($_POST['reg_btn'])) {
         } else {
             echo "not inserted";
         }
-        header('location:home.html');
+        //header('location:home.html');
     }
 } else {
 }
